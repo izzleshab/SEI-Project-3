@@ -2,28 +2,20 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 const logger = require('./lib/logger')
+const router = require('./config/router')
 const errorHandler = require('./lib/errorHandler')
 const { dbURI, port } = require('./config/environment')
-const router = require('./config/router')
-
 mongoose.connect(
   dbURI,
-  { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true },
+  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true  },
   (err) => {
-    if (err) {
-      console.log(err)
-      return
-    }
-    console.log('Mongo is Connected 🐘')
-  }
-)
-
+    if (err) return console.log(err)
+    console.log('Mongo is Connected!')
+  })
+app.use(express.static(`${__dirname}/frontend/build`)) // <-- This line has been added before the express json middleware, it will allow the app to respond to a request with contents of this directory "build", which will contain our React App code.
 app.use(express.json())
-
 app.use(logger)
-
 app.use('/api', router)
-
+app.use('/*', (_, res) => res.sendFile(`${__dirname}/frontend/build/index.html`)) // <-- This additional route handler has been added between the router and error handler middleware it means that any incoming request that does not match a route in router should respond back with our frontend.
 app.use(errorHandler)
-
-app.listen(port, () => console.log(`Listening on localhost:${port} 🤖`))
+app.listen(port, () => console.log(`Express is listening on port ${port}`))

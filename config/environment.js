@@ -1,7 +1,6 @@
-const dbURI = 'mongodb://localhost/thebeans'
-const port = 4000
-const secret = 'top secret secret'
-
+const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/thebeans'
+const port = process.env.PORT || 4000
+const secret = process.env.SECRET || 'shhhh its a secret'
 module.exports = {
   dbURI,
   port,
