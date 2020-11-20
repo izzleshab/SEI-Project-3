@@ -95,7 +95,7 @@ The Beans features functionality similar to other e-commerce websites. Users can
 
 Once my class mates and I had received the project brief, we brainstormed various ideas for an app that we all would personally use. I suggested the idea of a coffee based app where users could learn about coffees and my colleague Natalie suggested users could buy them too. With this idea in mind we took to trelloboard to begin planning the development of our application. We knew from the start that we wanted to produce our own RESTful API, so following the initial planning stage where our trelloboard was set up and hand-drawn wireframes were produced, we dedicated a full day toward gathering coffee and roaster data to fill our API. 
 
-![trello](./readme_assets/trello.png)
+![Trello](./readme_assets/trello.png)
 
 Once we were satisfied with our planning and had our data ready, we began working on the backend as a group. We would code seperately later. In our backend, we created models, controllers and routes for the beans index, show, roaster show and e-commerce aspects of the app. Lewis and I had worked on a seeds file at this point too, utilising the data the three of us had gathered the day before. 
 
