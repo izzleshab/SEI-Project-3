@@ -88,7 +88,7 @@ The Beans features functionality similar to other e-commerce websites. Users can
 
 ## Process
 
-Once my class mates and I had received the project brief, we brainstormed various ideas for an app that we all would personally use. I suggested the idea of a coffee based app where users could learn about coffees and my colleague Natalie suggested users could buy them too. With this idea in mind we took to trelloboard to begin planning the development of our application. We knew from the start that we wanted to produce our own RESTful API, so following the initial planning stage where our trelloboard was set up and hand-drawn wireframes were produced, we dedicated a full day toward gathering coffee and roaster data to fill our API. 
+Once my class mates and I had received the project brief, we brainstormed various ideas for an app that we all would personally use. I suggested the idea of a coffee based app where users could learn about coffees and my colleague Natalie suggested users could buy them too. With this idea in mind we took to Trello board to begin planning the development of our application. We knew from the start that we wanted to produce our own RESTful API, so following the initial planning stage where our Trello board was set up and hand-drawn wireframes were produced, we dedicated a full day toward gathering coffee and roaster data to fill our API. 
 
 ![Trello](./readme_assets/trello.png)
 
@@ -98,7 +98,7 @@ With the backend ready by day 3, each of us now seperated to complete our assign
 
 ## Division of Labour
 
-The Beans was the most complex application any of us had made on the course so far, as such, we decided utilising the trelloboard was the most effective way of dividing the work. We kept a list of tasks on the trelloboard that needed doing in the 'to do' section, each of us would select a task and move it into a 'doing' section of the board. Once complete, it would be moved to the 'done' section and we would choose a new aspect of the app to work on. This way all of us could keep track of where each of us was upto in the development process, and if a group member was on a particular section for longer than expected, we would convene as a group in order to troubleshoot any issues together before moving on. 
+The Beans was the most complex application any of us had made on the course so far, as such, we decided utilising the Trello board was the most effective way of dividing the work. We kept a list of tasks on the Trello board that needed doing in the 'to do' section, each of us would select a task and move it into a 'doing' section of the board. Once complete, it would be moved to the 'done' section and we would choose a new aspect of the app to work on. This way all of us could keep track of where each of us was upto in the development process, and if a group member was on a particular section for longer than expected, we would convene as a group in order to troubleshoot any issues together before moving on. 
 
 My responsibilities for the frontend of the app included the comments section on the beans show page and the React-toastify popups. 
 
