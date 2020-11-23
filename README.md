@@ -60,9 +60,13 @@ The app is currently undergoing a migration from mLabs to Atlas following the di
 ![beans-index](./readme_assets/beans-index.png)
 
 ### The beans show page, where users can select the quantity they would like to purchase as well as leave comments & ratings.
--
+![beans-show](./readme_assets/beans-show.png)
 
-### The roaster show page, where users can browse the various roasters whose product is available for purchase. 
+### The roaster index page, where users can browse the various roasters whose product is available for purchase. 
+
+![roaster-index](./readme_assets/roaster-index.png)
+
+### The roaster show page, where users can learn more about the products of one of our roasters. 
 
 ![roaster-show](./readme_assets/roaster-show.png)
 
@@ -70,15 +74,6 @@ The app is currently undergoing a migration from mLabs to Atlas following the di
 
 ![login](./readme_assets/login.png)
 ![register](./readme_assets/register.png)
-
-### User profile page, where user favourites are displayed.
--
-### Basket, where selected coffees are kept prior to checking out.
--
-### Checkout page.
--
-### Address and payment pages.
--
 
 ## Functionality
 
